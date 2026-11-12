@@ -1,0 +1,37 @@
+{
+  "method": "CLOCK_MONOTONIC function timers, single thread, gcc -O2; three runs",
+  "caveat": "Instrumented host timings include timer overhead and WSL scheduling noise. Other forward includes attention loops, nonlinear activation loops, RoPE, residuals and timer overhead. Host percentages are not RISC-V end-to-end speedups.",
+  "measurements": [
+    {
+      "matmul_ns": 1212831644,
+      "rmsnorm_ns": 865104,
+      "softmax_ns": 1869065,
+      "quantize_ns": 14528948,
+      "forward_ns": 1259844143,
+      "forward_calls": 128,
+      "other_forward_ns": 29749382,
+      "matmul_fraction": 0.9626838770008077
+    },
+    {
+      "matmul_ns": 1229015838,
+      "rmsnorm_ns": 782673,
+      "softmax_ns": 2031299,
+      "quantize_ns": 9224233,
+      "forward_ns": 1272782629,
+      "forward_calls": 128,
+      "other_forward_ns": 31728586,
+      "matmul_fraction": 0.9656133026938097
+    },
+    {
+      "matmul_ns": 1202975852,
+      "rmsnorm_ns": 808246,
+      "softmax_ns": 2704385,
+      "quantize_ns": 9117497,
+      "forward_ns": 1245119548,
+      "forward_calls": 128,
+      "other_forward_ns": 29513568,
+      "matmul_fraction": 0.9661528918506707
+    }
+  ],
+  "median_matmul_fraction": 0.9656133026938097
+}

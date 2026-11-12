@@ -1,0 +1,50 @@
+[
+  {
+    "bytes": 1024,
+    "bypass": 1,
+    "latency": 1,
+    "passed": true
+  },
+  {
+    "bytes": 1024,
+    "bypass": 0,
+    "latency": 1,
+    "passed": true
+  },
+  {
+    "bytes": 1024,
+    "bypass": 0,
+    "latency": 5,
+    "passed": true
+  },
+  {
+    "bytes": 1024,
+    "bypass": 0,
+    "latency": 9,
+    "passed": true
+  },
+  {
+    "bytes": 8192,
+    "bypass": 1,
+    "latency": 1,
+    "passed": true
+  },
+  {
+    "bytes": 8192,
+    "bypass": 0,
+    "latency": 1,
+    "passed": true
+  },
+  {
+    "bytes": 8192,
+    "bypass": 0,
+    "latency": 5,
+    "passed": true
+  },
+  {
+    "bytes": 8192,
+    "bypass": 0,
+    "latency": 9,
+    "passed": true
+  }
+]

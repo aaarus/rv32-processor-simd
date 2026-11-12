@@ -1,0 +1,9 @@
+{
+  "engine": "iverilog",
+  "code_bytes": 640,
+  "cases": 4,
+  "verified_kernel_invocations": 132,
+  "rows": 132,
+  "compiler": "riscv64-unknown-elf-gcc () 10.2.0",
+  "simulator": "Icarus Verilog version 11.0 (stable) ()"
+}

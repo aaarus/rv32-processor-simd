@@ -1,0 +1,15 @@
+build/
+__pycache__/
+*.vcd
+*.wlf
+transcript
+vsim_stacktrace.vstf
+*.o
+*.elf
+*.bin
+/c programs/program1.hex
+/c programs/program1.data.hex
+/core
+core.*
+.Xil/
+*.dcp

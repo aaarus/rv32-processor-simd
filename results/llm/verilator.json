@@ -1,0 +1,11 @@
+{
+  "engine": "verilator",
+  "code_bytes": 640,
+  "cases": 81,
+  "data_memory_bytes": 8192,
+  "chunked": false,
+  "verified_kernel_invocations": 1320,
+  "rows": 1320,
+  "compiler": "riscv64-unknown-elf-gcc () 10.2.0",
+  "simulator": "Verilator 4.038 2020-07-11 rev v4.036-114-g0cd4a57ad"
+}

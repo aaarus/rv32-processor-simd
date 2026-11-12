@@ -1,0 +1,30 @@
+[
+  {
+    "simulator": "iverilog",
+    "expected": 64,
+    "actual": 64,
+    "correctly_accepted": true,
+    "returncode": 0
+  },
+  {
+    "simulator": "iverilog",
+    "expected": 65,
+    "actual": 64,
+    "correctly_accepted": false,
+    "returncode": 1
+  },
+  {
+    "simulator": "verilator",
+    "expected": 64,
+    "actual": 64,
+    "correctly_accepted": true,
+    "returncode": 0
+  },
+  {
+    "simulator": "verilator",
+    "expected": 65,
+    "actual": 64,
+    "correctly_accepted": false,
+    "returncode": -6
+  }
+]

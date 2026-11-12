@@ -1,0 +1,7 @@
+{
+  "python": "3.10.12",
+  "system": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "host_gcc": "gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "cross_gcc": "riscv64-unknown-elf-gcc () 10.2.0",
+  "verilator": "Verilator 4.038 2020-07-11 rev v4.036-114-g0cd4a57ad"
+}
