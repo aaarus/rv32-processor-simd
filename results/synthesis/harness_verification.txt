@@ -1,0 +1,4 @@
+PASS harness matches original: bypass=0 variant=0 cycles=1387
+PASS harness matches original: bypass=0 variant=1 cycles=1285
+PASS harness matches original: bypass=1 variant=0 cycles=681
+PASS harness matches original: bypass=1 variant=1 cycles=226

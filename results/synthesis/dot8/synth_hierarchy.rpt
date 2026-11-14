@@ -1,0 +1,38 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Nov  3 03:32:04 2026
+| Command      : report_utilization -hierarchical -file results/synthesis/dot8/synth_hierarchy.rpt
+| Design       : synth_cpu
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------------+-------------------+------------+------------+---------+------+-------+--------+--------+------------+
+|         Instance         |       Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | DSP Blocks |
++--------------------------+-------------------+------------+------------+---------+------+-------+--------+--------+------------+
+| synth_cpu                |             (top) |      25604 |      25428 |     176 |    0 | 74015 |      0 |      0 |          3 |
+|   bp_inst                |  branch_predictor |       1223 |       1223 |       0 |    0 |  3776 |      0 |      0 |          0 |
+|   data_mem_inst          |          data_mem |      21011 |      21011 |       0 |    0 | 66753 |      0 |      0 |          0 |
+|   dcache_controller_inst | dcache_controller |        128 |        128 |       0 |    0 |     3 |      0 |      0 |          0 |
+|   dcache_datapath_inst   |   dcache_datapath |        323 |        323 |       0 |    0 |   960 |      0 |      0 |          0 |
+|   dot_inst               |              dot8 |         88 |         88 |       0 |    0 |     0 |      0 |      0 |          0 |
+|   ex_mem_inst            |            ex_mem |        487 |        487 |       0 |    0 |    80 |      0 |      0 |          0 |
+|   icache_inst            |            icache |        321 |        321 |       0 |    0 |   979 |      0 |      0 |          0 |
+|   id_ex_inst             |             id_ex |        844 |        844 |       0 |    0 |   192 |      0 |      0 |          0 |
+|   if_id_inst             |             if_id |        167 |        167 |       0 |    0 |   107 |      0 |      0 |          0 |
+|   instr_mem_inst         |         instr_mem |        256 |         80 |     176 |    0 |    42 |      0 |      0 |          0 |
+|   mem_wb_inst            |            mem_wb |        130 |        130 |       0 |    0 |    71 |      0 |      0 |          0 |
+|   pc_inst                |                pc |         34 |         34 |       0 |    0 |    60 |      0 |      0 |          0 |
+|   rb                     |          reg_bank |        576 |        576 |       0 |    0 |   992 |      0 |      0 |          0 |
++--------------------------+-------------------+------------+------------+---------+------+-------+--------+--------+------------+
